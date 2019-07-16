@@ -24,23 +24,17 @@ namespace calk_oop
 
         private void button3_Click(object sender, EventArgs e)
         {
-            double firstArgument = Convert.ToDouble(textBox1.Text);
-            double secondArgument = Convert.ToDouble(textBox2.Text);
-            double result = firstArgument * secondArgument;
-            label1.Text = result.ToString();
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            double firstArgument = Convert.ToDouble(textBox1.Text);
-            double secondArgument = Convert.ToDouble(textBox2.Text);
-            double result = firstArgument / secondArgument;
-            label1.Text = result.ToString();
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-           
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -58,9 +52,30 @@ namespace calk_oop
 
         private void button2_Click(object sender, EventArgs e)
         {
+
+        }
+        private void Calk(object sender, EventArgs e)
+        {
             double firstArgument = Convert.ToDouble(textBox1.Text);
             double secondArgument = Convert.ToDouble(textBox2.Text);
-            double result = firstArgument - secondArgument;
+            double result;
+            switch (((Button)sender).Name)
+            {
+                case "Add":
+                    result = firstArgument + secondArgument;
+                    break;
+                case "Subtraction":
+                    result = firstArgument - secondArgument;
+                    break;
+                case "Multiplication":
+                    result = firstArgument * secondArgument;
+                    break;
+                case "Divide":
+                    result = firstArgument / secondArgument;
+                    break;
+                default:
+                    throw new Exception("Unknown operation");
+            }
             label1.Text = result.ToString();
         }
     }

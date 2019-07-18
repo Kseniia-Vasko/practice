@@ -50,6 +50,7 @@
             this.Min = new System.Windows.Forms.Button();
             this.Max = new System.Windows.Forms.Button();
             this.Lg = new System.Windows.Forms.Button();
+            this.Neg = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -268,11 +269,22 @@
             this.Lg.UseVisualStyleBackColor = true;
             this.Lg.Click += new System.EventHandler(this.OneArgumentCalk);
             // 
+            // Neg
+            // 
+            this.Neg.Location = new System.Drawing.Point(297, 225);
+            this.Neg.Name = "Neg";
+            this.Neg.Size = new System.Drawing.Size(75, 23);
+            this.Neg.TabIndex = 22;
+            this.Neg.Text = "-x";
+            this.Neg.UseVisualStyleBackColor = true;
+            this.Neg.Click += new System.EventHandler(this.OneArgumentCalk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Neg);
             this.Controls.Add(this.Lg);
             this.Controls.Add(this.Max);
             this.Controls.Add(this.Min);
@@ -326,6 +338,7 @@
         private System.Windows.Forms.Button Min;
         private System.Windows.Forms.Button Max;
         private System.Windows.Forms.Button Lg;
+        private System.Windows.Forms.Button Neg;
     }
 }
 

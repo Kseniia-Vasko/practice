@@ -28,6 +28,8 @@ namespace calk_oop.OneArgumentFunctions
                     return new LogarithmN();
                 case "Lg":
                     return new Logarithm10();
+                case "Neg":
+                    return new Negation();
                 default:
                     throw new Exception("Unknown operation");
             }

@@ -55,6 +55,7 @@
     <Compile Include="OneArgumentFunctions\Logarithm10.cs" />
     <Compile Include="OneArgumentFunctions\LogarithmN.cs" />
     <Compile Include="OneArgumentFunctions\Mod.cs" />
+    <Compile Include="OneArgumentFunctions\Negation.cs" />
     <Compile Include="OneArgumentFunctions\OneArgumentsFactory.cs" />
     <Compile Include="OneArgumentFunctions\Sinus.cs" />
     <Compile Include="OneArgumentFunctions\Tangens.cs" />

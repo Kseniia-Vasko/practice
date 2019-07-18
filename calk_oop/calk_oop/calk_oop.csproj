@@ -50,6 +50,7 @@
     <Compile Include="OneArgumentFunctions\Arcsinus.cs" />
     <Compile Include="OneArgumentFunctions\Arctangens.cs" />
     <Compile Include="OneArgumentFunctions\Cosinus.cs" />
+    <Compile Include="OneArgumentFunctions\Divideback.cs" />
     <Compile Include="OneArgumentFunctions\Exponenta.cs" />
     <Compile Include="OneArgumentFunctions\IOneArgumentsCalculator.cs" />
     <Compile Include="OneArgumentFunctions\Logarithm10.cs" />

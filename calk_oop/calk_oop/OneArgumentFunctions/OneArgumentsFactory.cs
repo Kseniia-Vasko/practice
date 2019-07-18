@@ -38,6 +38,8 @@ namespace calk_oop.OneArgumentFunctions
                     return new Divideback();
                 case "Pwer":
                     return new Anotherpower();
+                case "Ctg":
+                    return new Cotangens();
                 default:
                     throw new Exception("Unknown operation");
             }

@@ -55,6 +55,7 @@
             this.Pwr = new System.Windows.Forms.Button();
             this.Back = new System.Windows.Forms.Button();
             this.Pwer = new System.Windows.Forms.Button();
+            this.Ctg = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -323,11 +324,22 @@
             this.Pwer.UseVisualStyleBackColor = true;
             this.Pwer.Click += new System.EventHandler(this.OneArgumentCalk);
             // 
+            // Ctg
+            // 
+            this.Ctg.Location = new System.Drawing.Point(12, 301);
+            this.Ctg.Name = "Ctg";
+            this.Ctg.Size = new System.Drawing.Size(75, 23);
+            this.Ctg.TabIndex = 27;
+            this.Ctg.Text = "Ctg";
+            this.Ctg.UseVisualStyleBackColor = true;
+            this.Ctg.Click += new System.EventHandler(this.OneArgumentCalk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Ctg);
             this.Controls.Add(this.Pwer);
             this.Controls.Add(this.Back);
             this.Controls.Add(this.Pwr);
@@ -391,6 +403,7 @@
         private System.Windows.Forms.Button Pwr;
         private System.Windows.Forms.Button Back;
         private System.Windows.Forms.Button Pwer;
+        private System.Windows.Forms.Button Ctg;
     }
 }
 

@@ -47,6 +47,7 @@
             this.Pow = new System.Windows.Forms.Button();
             this.Power = new System.Windows.Forms.Button();
             this.Log = new System.Windows.Forms.Button();
+            this.Min = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -235,11 +236,22 @@
             this.Log.UseVisualStyleBackColor = true;
             this.Log.Click += new System.EventHandler(this.Calk);
             // 
+            // Min
+            // 
+            this.Min.Location = new System.Drawing.Point(12, 225);
+            this.Min.Name = "Min";
+            this.Min.Size = new System.Drawing.Size(75, 23);
+            this.Min.TabIndex = 19;
+            this.Min.Text = "Min";
+            this.Min.UseVisualStyleBackColor = true;
+            this.Min.Click += new System.EventHandler(this.Calk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Min);
             this.Controls.Add(this.Log);
             this.Controls.Add(this.Power);
             this.Controls.Add(this.Pow);
@@ -287,6 +299,7 @@
         private System.Windows.Forms.Button Pow;
         private System.Windows.Forms.Button Power;
         private System.Windows.Forms.Button Log;
+        private System.Windows.Forms.Button Min;
     }
 }
 

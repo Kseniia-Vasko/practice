@@ -22,6 +22,8 @@ namespace calk_oop.TwoArgumentFunctions
                     return new PowerB();
                 case "Log":
                     return new Logarithm();
+                case "Min":
+                    return new Minimum();
                 default:
                     throw new Exception("Unknown operation");
             }

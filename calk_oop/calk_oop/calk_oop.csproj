@@ -67,6 +67,7 @@
     </Compile>
     <Compile Include="TwoArgumentFunctions\ITwoArgumentsCalculator.cs" />
     <Compile Include="TwoArgumentFunctions\Multipier.cs" />
+    <Compile Include="TwoArgumentFunctions\Power.cs" />
     <Compile Include="TwoArgumentFunctions\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentFunctions\Subtracter.cs" />

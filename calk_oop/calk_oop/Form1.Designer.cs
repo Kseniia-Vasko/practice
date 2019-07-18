@@ -44,6 +44,7 @@
             this.Arctan = new System.Windows.Forms.Button();
             this.Abs = new System.Windows.Forms.Button();
             this.Ln = new System.Windows.Forms.Button();
+            this.Pow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -202,11 +203,22 @@
             this.Ln.UseVisualStyleBackColor = true;
             this.Ln.Click += new System.EventHandler(this.OneArgumentCalk);
             // 
+            // Pow
+            // 
+            this.Pow.Location = new System.Drawing.Point(103, 185);
+            this.Pow.Name = "Pow";
+            this.Pow.Size = new System.Drawing.Size(75, 23);
+            this.Pow.TabIndex = 16;
+            this.Pow.Text = "Pow";
+            this.Pow.UseVisualStyleBackColor = true;
+            this.Pow.Click += new System.EventHandler(this.Calk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Pow);
             this.Controls.Add(this.Ln);
             this.Controls.Add(this.Abs);
             this.Controls.Add(this.Arctan);
@@ -248,6 +260,7 @@
         private System.Windows.Forms.Button Arctan;
         private System.Windows.Forms.Button Abs;
         private System.Windows.Forms.Button Ln;
+        private System.Windows.Forms.Button Pow;
     }
 }
 

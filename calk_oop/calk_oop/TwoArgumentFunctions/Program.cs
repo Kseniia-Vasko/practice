@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace calk_oop
+namespace calk_oop.TwoArgumentFunctions
 {
     static class Program
     {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace calk_oop
+namespace calk_oop.TwoArgumentFunctions
 {
-   public class Divider : ITwoArgumentsCalcukator
+   public class Divider : ITwoArgumentsCalculator
 
     {
    public double Calculate(double firstValue, double secondValue)

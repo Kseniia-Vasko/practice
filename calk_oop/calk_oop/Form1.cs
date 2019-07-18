@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using calk_oop.OneArgumentFunctions;
+using calk_oop.TwoArgumentFunctions;
 
 namespace calk_oop
 {
@@ -41,16 +43,26 @@ namespace calk_oop
         {
 
         }
-        
+
 
         private void Calk(object sender, EventArgs e)
         {
             double firstArgument = Convert.ToDouble(textBox1.Text);
             double secondArgument = Convert.ToDouble(textBox2.Text);
             double result;
-            var Calculator = TwoArgumentsFactory.CreateCalcukator(((Button) sender).Name);
+            var Calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
             result = Calculator.Calculate(firstArgument, secondArgument);
-             
+
+            label1.Text = result.ToString();
+        }
+        private void OneArgumentCalk(object sender, EventArgs e)
+        {
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+
+            double result;
+            var Calculator = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            result = Calculator.Calculate(firstArgument);
+
             label1.Text = result.ToString();
         }
     }

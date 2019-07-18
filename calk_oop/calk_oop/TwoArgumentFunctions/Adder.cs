@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace calk_oop
+namespace calk_oop.TwoArgumentFunctions
 {
-   public class Subrtacter : ITwoArgumentsCalcukator
+   public class Adder : ITwoArgumentsCalculator
     {
        public double Calculate(double firstValue, double secondValue)
         {
-            return firstValue - secondValue;
+            return firstValue + secondValue;
         }
     }
 }

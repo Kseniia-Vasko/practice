@@ -41,6 +41,7 @@
             this.Tan = new System.Windows.Forms.Button();
             this.Arcsin = new System.Windows.Forms.Button();
             this.Arccos = new System.Windows.Forms.Button();
+            this.Arctan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -169,11 +170,22 @@
             this.Arccos.UseVisualStyleBackColor = true;
             this.Arccos.Click += new System.EventHandler(this.OneArgumentCalk);
             // 
+            // Arctan
+            // 
+            this.Arctan.Location = new System.Drawing.Point(198, 143);
+            this.Arctan.Name = "Arctan";
+            this.Arctan.Size = new System.Drawing.Size(75, 23);
+            this.Arctan.TabIndex = 13;
+            this.Arctan.Text = "ArcTan";
+            this.Arctan.UseVisualStyleBackColor = true;
+            this.Arctan.Click += new System.EventHandler(this.OneArgumentCalk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Arctan);
             this.Controls.Add(this.Arccos);
             this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Tan);
@@ -209,6 +221,7 @@
         private System.Windows.Forms.Button Tan;
         private System.Windows.Forms.Button Arcsin;
         private System.Windows.Forms.Button Arccos;
+        private System.Windows.Forms.Button Arctan;
     }
 }
 

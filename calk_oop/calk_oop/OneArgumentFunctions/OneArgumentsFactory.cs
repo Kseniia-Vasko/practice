@@ -22,6 +22,8 @@ namespace calk_oop.OneArgumentFunctions
                     return new Arccosinus();
                 case "Arctan":
                     return new Arctangens();
+                case "Abs":
+                    return new Mod();
                 default:
                     throw new Exception("Unknown operation");
             }

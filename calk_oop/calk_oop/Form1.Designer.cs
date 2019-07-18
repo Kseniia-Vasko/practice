@@ -42,6 +42,7 @@
             this.Arcsin = new System.Windows.Forms.Button();
             this.Arccos = new System.Windows.Forms.Button();
             this.Arctan = new System.Windows.Forms.Button();
+            this.Abs = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -104,7 +105,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Location = new System.Drawing.Point(694, 59);
+            this.label1.Location = new System.Drawing.Point(703, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 6;
@@ -180,11 +181,22 @@
             this.Arctan.UseVisualStyleBackColor = true;
             this.Arctan.Click += new System.EventHandler(this.OneArgumentCalk);
             // 
+            // Abs
+            // 
+            this.Abs.Location = new System.Drawing.Point(297, 142);
+            this.Abs.Name = "Abs";
+            this.Abs.Size = new System.Drawing.Size(75, 24);
+            this.Abs.TabIndex = 14;
+            this.Abs.Text = "Module";
+            this.Abs.UseVisualStyleBackColor = true;
+            this.Abs.Click += new System.EventHandler(this.OneArgumentCalk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Abs);
             this.Controls.Add(this.Arctan);
             this.Controls.Add(this.Arccos);
             this.Controls.Add(this.Arcsin);
@@ -222,6 +234,7 @@
         private System.Windows.Forms.Button Arcsin;
         private System.Windows.Forms.Button Arccos;
         private System.Windows.Forms.Button Arctan;
+        private System.Windows.Forms.Button Abs;
     }
 }
 

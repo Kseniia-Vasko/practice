@@ -26,6 +26,8 @@ namespace calk_oop.TwoArgumentFunctions
                     return new Minimum();
                 case "Max":
                     return new Maximum();
+                case "Avg":
+                    return new Average();
                 default:
                     throw new Exception("Unknown operation");
             }

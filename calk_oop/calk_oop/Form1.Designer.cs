@@ -56,6 +56,7 @@
             this.Back = new System.Windows.Forms.Button();
             this.Pwer = new System.Windows.Forms.Button();
             this.Ctg = new System.Windows.Forms.Button();
+            this.Avg = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -334,11 +335,22 @@
             this.Ctg.UseVisualStyleBackColor = true;
             this.Ctg.Click += new System.EventHandler(this.OneArgumentCalk);
             // 
+            // Avg
+            // 
+            this.Avg.Location = new System.Drawing.Point(103, 301);
+            this.Avg.Name = "Avg";
+            this.Avg.Size = new System.Drawing.Size(75, 23);
+            this.Avg.TabIndex = 28;
+            this.Avg.Text = "Average";
+            this.Avg.UseVisualStyleBackColor = true;
+            this.Avg.Click += new System.EventHandler(this.Calk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Avg);
             this.Controls.Add(this.Ctg);
             this.Controls.Add(this.Pwer);
             this.Controls.Add(this.Back);
@@ -404,6 +416,7 @@
         private System.Windows.Forms.Button Back;
         private System.Windows.Forms.Button Pwer;
         private System.Windows.Forms.Button Ctg;
+        private System.Windows.Forms.Button Avg;
     }
 }
 

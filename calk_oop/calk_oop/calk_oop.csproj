@@ -65,6 +65,7 @@
     <Compile Include="OneArgumentFunctions\Sinus.cs" />
     <Compile Include="OneArgumentFunctions\Tangens.cs" />
     <Compile Include="TwoArgumentFunctions\Adder.cs" />
+    <Compile Include="TwoArgumentFunctions\Average.cs" />
     <Compile Include="TwoArgumentFunctions\Divider.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

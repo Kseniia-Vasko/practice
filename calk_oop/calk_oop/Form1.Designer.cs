@@ -51,6 +51,7 @@
             this.Max = new System.Windows.Forms.Button();
             this.Lg = new System.Windows.Forms.Button();
             this.Neg = new System.Windows.Forms.Button();
+            this.Pw = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -279,11 +280,22 @@
             this.Neg.UseVisualStyleBackColor = true;
             this.Neg.Click += new System.EventHandler(this.OneArgumentCalk);
             // 
+            // Pw
+            // 
+            this.Pw.Location = new System.Drawing.Point(12, 263);
+            this.Pw.Name = "Pw";
+            this.Pw.Size = new System.Drawing.Size(75, 23);
+            this.Pw.TabIndex = 23;
+            this.Pw.Text = "2^x";
+            this.Pw.UseVisualStyleBackColor = true;
+            this.Pw.Click += new System.EventHandler(this.OneArgumentCalk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Pw);
             this.Controls.Add(this.Neg);
             this.Controls.Add(this.Lg);
             this.Controls.Add(this.Max);
@@ -339,6 +351,7 @@
         private System.Windows.Forms.Button Max;
         private System.Windows.Forms.Button Lg;
         private System.Windows.Forms.Button Neg;
+        private System.Windows.Forms.Button Pw;
     }
 }
 

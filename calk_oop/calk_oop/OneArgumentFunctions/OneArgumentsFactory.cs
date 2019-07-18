@@ -30,6 +30,8 @@ namespace calk_oop.OneArgumentFunctions
                     return new Logarithm10();
                 case "Neg":
                     return new Negation();
+                case "Pw":
+                    return new Power2();
                 default:
                     throw new Exception("Unknown operation");
             }

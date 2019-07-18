@@ -57,6 +57,7 @@
     <Compile Include="OneArgumentFunctions\Mod.cs" />
     <Compile Include="OneArgumentFunctions\Negation.cs" />
     <Compile Include="OneArgumentFunctions\OneArgumentsFactory.cs" />
+    <Compile Include="OneArgumentFunctions\Power2.cs" />
     <Compile Include="OneArgumentFunctions\Sinus.cs" />
     <Compile Include="OneArgumentFunctions\Tangens.cs" />
     <Compile Include="TwoArgumentFunctions\Adder.cs" />

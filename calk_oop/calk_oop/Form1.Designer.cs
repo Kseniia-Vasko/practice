@@ -37,6 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Sin = new System.Windows.Forms.Button();
             this.Cos = new System.Windows.Forms.Button();
+            this.Exp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -125,11 +126,22 @@
             this.Cos.UseVisualStyleBackColor = true;
             this.Cos.Click += new System.EventHandler(this.OneArgumentCalk);
             // 
+            // Exp
+            // 
+            this.Exp.Location = new System.Drawing.Point(198, 100);
+            this.Exp.Name = "Exp";
+            this.Exp.Size = new System.Drawing.Size(75, 23);
+            this.Exp.TabIndex = 9;
+            this.Exp.Text = "Exp";
+            this.Exp.UseVisualStyleBackColor = true;
+            this.Exp.Click += new System.EventHandler(this.OneArgumentCalk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Exp);
             this.Controls.Add(this.Cos);
             this.Controls.Add(this.Sin);
             this.Controls.Add(this.label1);
@@ -157,6 +169,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Sin;
         private System.Windows.Forms.Button Cos;
+        private System.Windows.Forms.Button Exp;
     }
 }
 

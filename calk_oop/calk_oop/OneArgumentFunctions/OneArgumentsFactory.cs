@@ -12,6 +12,8 @@ namespace calk_oop.OneArgumentFunctions
                     return new Sinus();
                 case "Cos":
                     return new Cosinus();
+                case "Exp":
+                    return new Exponenta();
                 default:
                     throw new Exception("Unknown operation");
             }

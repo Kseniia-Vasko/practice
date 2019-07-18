@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calk_oop", "calk_oop\calk_oop.csproj", "{129EC770-5236-47DD-BE0B-7ED7845ABD05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calk_OOP.Test", "Calk_OOP.Test\Calk_OOP.Test.csproj", "{AF3B9835-BB7E-46F7-ACA1-41378362CC30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{129EC770-5236-47DD-BE0B-7ED7845ABD05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{129EC770-5236-47DD-BE0B-7ED7845ABD05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{129EC770-5236-47DD-BE0B-7ED7845ABD05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3B9835-BB7E-46F7-ACA1-41378362CC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3B9835-BB7E-46F7-ACA1-41378362CC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3B9835-BB7E-46F7-ACA1-41378362CC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3B9835-BB7E-46F7-ACA1-41378362CC30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

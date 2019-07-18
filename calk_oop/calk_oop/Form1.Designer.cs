@@ -39,6 +39,7 @@
             this.Cos = new System.Windows.Forms.Button();
             this.Exp = new System.Windows.Forms.Button();
             this.Tan = new System.Windows.Forms.Button();
+            this.Arcsin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -83,7 +84,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 21);
+            this.textBox1.Location = new System.Drawing.Point(426, 59);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 4;
@@ -91,7 +92,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(148, 21);
+            this.textBox2.Location = new System.Drawing.Point(574, 59);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 5;
@@ -101,7 +102,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Location = new System.Drawing.Point(311, 24);
+            this.label1.Location = new System.Drawing.Point(744, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 6;
@@ -147,11 +148,22 @@
             this.Tan.UseVisualStyleBackColor = true;
             this.Tan.Click += new System.EventHandler(this.OneArgumentCalk);
             // 
+            // Arcsin
+            // 
+            this.Arcsin.Location = new System.Drawing.Point(12, 141);
+            this.Arcsin.Name = "Arcsin";
+            this.Arcsin.Size = new System.Drawing.Size(75, 25);
+            this.Arcsin.TabIndex = 11;
+            this.Arcsin.Text = "ArcSin";
+            this.Arcsin.UseVisualStyleBackColor = true;
+            this.Arcsin.Click += new System.EventHandler(this.OneArgumentCalk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Tan);
             this.Controls.Add(this.Exp);
             this.Controls.Add(this.Cos);
@@ -183,6 +195,7 @@
         private System.Windows.Forms.Button Cos;
         private System.Windows.Forms.Button Exp;
         private System.Windows.Forms.Button Tan;
+        private System.Windows.Forms.Button Arcsin;
     }
 }
 

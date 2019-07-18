@@ -54,6 +54,7 @@
             this.Pw = new System.Windows.Forms.Button();
             this.Pwr = new System.Windows.Forms.Button();
             this.Back = new System.Windows.Forms.Button();
+            this.Pwer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -312,11 +313,22 @@
             this.Back.UseVisualStyleBackColor = true;
             this.Back.Click += new System.EventHandler(this.OneArgumentCalk);
             // 
+            // Pwer
+            // 
+            this.Pwer.Location = new System.Drawing.Point(297, 263);
+            this.Pwer.Name = "Pwer";
+            this.Pwer.Size = new System.Drawing.Size(75, 23);
+            this.Pwer.TabIndex = 26;
+            this.Pwer.Text = "x^2";
+            this.Pwer.UseVisualStyleBackColor = true;
+            this.Pwer.Click += new System.EventHandler(this.OneArgumentCalk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Pwer);
             this.Controls.Add(this.Back);
             this.Controls.Add(this.Pwr);
             this.Controls.Add(this.Pw);
@@ -378,6 +390,7 @@
         private System.Windows.Forms.Button Pw;
         private System.Windows.Forms.Button Pwr;
         private System.Windows.Forms.Button Back;
+        private System.Windows.Forms.Button Pwer;
     }
 }
 

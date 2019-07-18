@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentFunctions\Anotherpower.cs" />
     <Compile Include="OneArgumentFunctions\Arccosinus.cs" />
     <Compile Include="OneArgumentFunctions\Arcsinus.cs" />
     <Compile Include="OneArgumentFunctions\Arctangens.cs" />

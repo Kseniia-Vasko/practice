@@ -36,6 +36,8 @@ namespace calk_oop.OneArgumentFunctions
                     return new Pow10();
                 case "Back":
                     return new Divideback();
+                case "Pwer":
+                    return new Anotherpower();
                 default:
                     throw new Exception("Unknown operation");
             }

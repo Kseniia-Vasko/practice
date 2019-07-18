@@ -46,6 +46,7 @@
             this.Ln = new System.Windows.Forms.Button();
             this.Pow = new System.Windows.Forms.Button();
             this.Power = new System.Windows.Forms.Button();
+            this.Log = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -224,11 +225,22 @@
             this.Power.UseVisualStyleBackColor = true;
             this.Power.Click += new System.EventHandler(this.Calk);
             // 
+            // Log
+            // 
+            this.Log.Location = new System.Drawing.Point(297, 185);
+            this.Log.Name = "Log";
+            this.Log.Size = new System.Drawing.Size(75, 23);
+            this.Log.TabIndex = 18;
+            this.Log.Text = "Logx(y)";
+            this.Log.UseVisualStyleBackColor = true;
+            this.Log.Click += new System.EventHandler(this.Calk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Log);
             this.Controls.Add(this.Power);
             this.Controls.Add(this.Pow);
             this.Controls.Add(this.Ln);
@@ -274,6 +286,7 @@
         private System.Windows.Forms.Button Ln;
         private System.Windows.Forms.Button Pow;
         private System.Windows.Forms.Button Power;
+        private System.Windows.Forms.Button Log;
     }
 }
 

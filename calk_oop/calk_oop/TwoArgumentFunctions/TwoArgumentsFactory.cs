@@ -20,6 +20,8 @@ namespace calk_oop.TwoArgumentFunctions
                     return new Power();
                 case "Power":
                     return new PowerB();
+                case "Log":
+                    return new Logarithm();
                 default:
                     throw new Exception("Unknown operation");
             }

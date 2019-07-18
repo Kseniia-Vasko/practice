@@ -66,6 +66,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="TwoArgumentFunctions\ITwoArgumentsCalculator.cs" />
+    <Compile Include="TwoArgumentFunctions\Logarithm.cs" />
     <Compile Include="TwoArgumentFunctions\Multipier.cs" />
     <Compile Include="TwoArgumentFunctions\Power.cs" />
     <Compile Include="TwoArgumentFunctions\PowerB.cs" />

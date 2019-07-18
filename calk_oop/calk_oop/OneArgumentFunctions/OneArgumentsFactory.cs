@@ -14,6 +14,8 @@ namespace calk_oop.OneArgumentFunctions
                     return new Cosinus();
                 case "Exp":
                     return new Exponenta();
+                case "Tan":
+                    return new Tangens();
                 default:
                     throw new Exception("Unknown operation");
             }

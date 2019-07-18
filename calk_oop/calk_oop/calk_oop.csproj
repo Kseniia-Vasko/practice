@@ -51,6 +51,7 @@
     <Compile Include="OneArgumentFunctions\IOneArgumentsCalculator.cs" />
     <Compile Include="OneArgumentFunctions\OneArgumentsFactory.cs" />
     <Compile Include="OneArgumentFunctions\Sinus.cs" />
+    <Compile Include="OneArgumentFunctions\Tangens.cs" />
     <Compile Include="TwoArgumentFunctions\Adder.cs" />
     <Compile Include="TwoArgumentFunctions\Divider.cs" />
     <Compile Include="Form1.cs">

@@ -24,6 +24,8 @@ namespace calk_oop.OneArgumentFunctions
                     return new Arctangens();
                 case "Abs":
                     return new Mod();
+                case "Ln":
+                    return new LogarithmN();
                 default:
                     throw new Exception("Unknown operation");
             }

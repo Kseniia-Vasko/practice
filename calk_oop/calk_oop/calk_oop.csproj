@@ -52,6 +52,7 @@
     <Compile Include="OneArgumentFunctions\Cosinus.cs" />
     <Compile Include="OneArgumentFunctions\Exponenta.cs" />
     <Compile Include="OneArgumentFunctions\IOneArgumentsCalculator.cs" />
+    <Compile Include="OneArgumentFunctions\LogarithmN.cs" />
     <Compile Include="OneArgumentFunctions\Mod.cs" />
     <Compile Include="OneArgumentFunctions\OneArgumentsFactory.cs" />
     <Compile Include="OneArgumentFunctions\Sinus.cs" />

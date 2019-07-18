@@ -43,6 +43,7 @@
             this.Arccos = new System.Windows.Forms.Button();
             this.Arctan = new System.Windows.Forms.Button();
             this.Abs = new System.Windows.Forms.Button();
+            this.Ln = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -191,11 +192,22 @@
             this.Abs.UseVisualStyleBackColor = true;
             this.Abs.Click += new System.EventHandler(this.OneArgumentCalk);
             // 
+            // Ln
+            // 
+            this.Ln.Location = new System.Drawing.Point(12, 185);
+            this.Ln.Name = "Ln";
+            this.Ln.Size = new System.Drawing.Size(75, 23);
+            this.Ln.TabIndex = 15;
+            this.Ln.Text = "Ln";
+            this.Ln.UseVisualStyleBackColor = true;
+            this.Ln.Click += new System.EventHandler(this.OneArgumentCalk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Ln);
             this.Controls.Add(this.Abs);
             this.Controls.Add(this.Arctan);
             this.Controls.Add(this.Arccos);
@@ -235,6 +247,7 @@
         private System.Windows.Forms.Button Arccos;
         private System.Windows.Forms.Button Arctan;
         private System.Windows.Forms.Button Abs;
+        private System.Windows.Forms.Button Ln;
     }
 }
 

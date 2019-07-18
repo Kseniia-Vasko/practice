@@ -32,6 +32,8 @@ namespace calk_oop.OneArgumentFunctions
                     return new Negation();
                 case "Pw":
                     return new Power2();
+                case "Pwr":
+                    return new Pow10();
                 default:
                     throw new Exception("Unknown operation");
             }

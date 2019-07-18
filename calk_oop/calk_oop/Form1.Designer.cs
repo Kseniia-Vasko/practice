@@ -52,6 +52,7 @@
             this.Lg = new System.Windows.Forms.Button();
             this.Neg = new System.Windows.Forms.Button();
             this.Pw = new System.Windows.Forms.Button();
+            this.Pwr = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -290,11 +291,22 @@
             this.Pw.UseVisualStyleBackColor = true;
             this.Pw.Click += new System.EventHandler(this.OneArgumentCalk);
             // 
+            // Pwr
+            // 
+            this.Pwr.Location = new System.Drawing.Point(103, 263);
+            this.Pwr.Name = "Pwr";
+            this.Pwr.Size = new System.Drawing.Size(75, 23);
+            this.Pwr.TabIndex = 24;
+            this.Pwr.Text = "10^x";
+            this.Pwr.UseVisualStyleBackColor = true;
+            this.Pwr.Click += new System.EventHandler(this.OneArgumentCalk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Pwr);
             this.Controls.Add(this.Pw);
             this.Controls.Add(this.Neg);
             this.Controls.Add(this.Lg);
@@ -352,6 +364,7 @@
         private System.Windows.Forms.Button Lg;
         private System.Windows.Forms.Button Neg;
         private System.Windows.Forms.Button Pw;
+        private System.Windows.Forms.Button Pwr;
     }
 }
 

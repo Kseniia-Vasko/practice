@@ -45,6 +45,7 @@
             this.Abs = new System.Windows.Forms.Button();
             this.Ln = new System.Windows.Forms.Button();
             this.Pow = new System.Windows.Forms.Button();
+            this.Power = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -213,11 +214,22 @@
             this.Pow.UseVisualStyleBackColor = true;
             this.Pow.Click += new System.EventHandler(this.Calk);
             // 
+            // Power
+            // 
+            this.Power.Location = new System.Drawing.Point(198, 185);
+            this.Power.Name = "Power";
+            this.Power.Size = new System.Drawing.Size(75, 23);
+            this.Power.TabIndex = 17;
+            this.Power.Text = "x^(1/y)";
+            this.Power.UseVisualStyleBackColor = true;
+            this.Power.Click += new System.EventHandler(this.Calk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Power);
             this.Controls.Add(this.Pow);
             this.Controls.Add(this.Ln);
             this.Controls.Add(this.Abs);
@@ -261,6 +273,7 @@
         private System.Windows.Forms.Button Abs;
         private System.Windows.Forms.Button Ln;
         private System.Windows.Forms.Button Pow;
+        private System.Windows.Forms.Button Power;
     }
 }
 

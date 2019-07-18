@@ -18,6 +18,8 @@ namespace calk_oop.TwoArgumentFunctions
                     return new Divider();
                 case "Pow":
                     return new Power();
+                case "Power":
+                    return new PowerB();
                 default:
                     throw new Exception("Unknown operation");
             }

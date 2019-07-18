@@ -48,6 +48,7 @@
             this.Power = new System.Windows.Forms.Button();
             this.Log = new System.Windows.Forms.Button();
             this.Min = new System.Windows.Forms.Button();
+            this.Max = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -246,11 +247,22 @@
             this.Min.UseVisualStyleBackColor = true;
             this.Min.Click += new System.EventHandler(this.Calk);
             // 
+            // Max
+            // 
+            this.Max.Location = new System.Drawing.Point(103, 225);
+            this.Max.Name = "Max";
+            this.Max.Size = new System.Drawing.Size(75, 23);
+            this.Max.TabIndex = 20;
+            this.Max.Text = "Max";
+            this.Max.UseVisualStyleBackColor = true;
+            this.Max.Click += new System.EventHandler(this.Calk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Max);
             this.Controls.Add(this.Min);
             this.Controls.Add(this.Log);
             this.Controls.Add(this.Power);
@@ -300,6 +312,7 @@
         private System.Windows.Forms.Button Power;
         private System.Windows.Forms.Button Log;
         private System.Windows.Forms.Button Min;
+        private System.Windows.Forms.Button Max;
     }
 }
 

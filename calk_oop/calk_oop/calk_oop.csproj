@@ -67,6 +67,7 @@
     </Compile>
     <Compile Include="TwoArgumentFunctions\ITwoArgumentsCalculator.cs" />
     <Compile Include="TwoArgumentFunctions\Logarithm.cs" />
+    <Compile Include="TwoArgumentFunctions\Maximum.cs" />
     <Compile Include="TwoArgumentFunctions\Minimum.cs" />
     <Compile Include="TwoArgumentFunctions\Multipier.cs" />
     <Compile Include="TwoArgumentFunctions\Power.cs" />

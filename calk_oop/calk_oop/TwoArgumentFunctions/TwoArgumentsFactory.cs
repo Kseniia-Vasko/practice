@@ -24,6 +24,8 @@ namespace calk_oop.TwoArgumentFunctions
                     return new Logarithm();
                 case "Min":
                     return new Minimum();
+                case "Max":
+                    return new Maximum();
                 default:
                     throw new Exception("Unknown operation");
             }

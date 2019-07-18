@@ -26,6 +26,8 @@ namespace calk_oop.OneArgumentFunctions
                     return new Mod();
                 case "Ln":
                     return new LogarithmN();
+                case "Lg":
+                    return new Logarithm10();
                 default:
                     throw new Exception("Unknown operation");
             }

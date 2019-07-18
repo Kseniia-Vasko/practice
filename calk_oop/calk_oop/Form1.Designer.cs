@@ -49,6 +49,7 @@
             this.Log = new System.Windows.Forms.Button();
             this.Min = new System.Windows.Forms.Button();
             this.Max = new System.Windows.Forms.Button();
+            this.Lg = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -257,11 +258,22 @@
             this.Max.UseVisualStyleBackColor = true;
             this.Max.Click += new System.EventHandler(this.Calk);
             // 
+            // Lg
+            // 
+            this.Lg.Location = new System.Drawing.Point(198, 225);
+            this.Lg.Name = "Lg";
+            this.Lg.Size = new System.Drawing.Size(75, 23);
+            this.Lg.TabIndex = 21;
+            this.Lg.Text = "Lg";
+            this.Lg.UseVisualStyleBackColor = true;
+            this.Lg.Click += new System.EventHandler(this.OneArgumentCalk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Lg);
             this.Controls.Add(this.Max);
             this.Controls.Add(this.Min);
             this.Controls.Add(this.Log);
@@ -313,6 +325,7 @@
         private System.Windows.Forms.Button Log;
         private System.Windows.Forms.Button Min;
         private System.Windows.Forms.Button Max;
+        private System.Windows.Forms.Button Lg;
     }
 }
 

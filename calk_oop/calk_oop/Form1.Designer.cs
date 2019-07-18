@@ -57,6 +57,7 @@
             this.Pwer = new System.Windows.Forms.Button();
             this.Ctg = new System.Windows.Forms.Button();
             this.Avg = new System.Windows.Forms.Button();
+            this.GeomAvg = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -345,11 +346,22 @@
             this.Avg.UseVisualStyleBackColor = true;
             this.Avg.Click += new System.EventHandler(this.Calk);
             // 
+            // GeomAvg
+            // 
+            this.GeomAvg.Location = new System.Drawing.Point(198, 301);
+            this.GeomAvg.Name = "GeomAvg";
+            this.GeomAvg.Size = new System.Drawing.Size(75, 23);
+            this.GeomAvg.TabIndex = 29;
+            this.GeomAvg.Text = "AverageGeom";
+            this.GeomAvg.UseVisualStyleBackColor = true;
+            this.GeomAvg.Click += new System.EventHandler(this.Calk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.GeomAvg);
             this.Controls.Add(this.Avg);
             this.Controls.Add(this.Ctg);
             this.Controls.Add(this.Pwer);
@@ -417,6 +429,7 @@
         private System.Windows.Forms.Button Pwer;
         private System.Windows.Forms.Button Ctg;
         private System.Windows.Forms.Button Avg;
+        private System.Windows.Forms.Button GeomAvg;
     }
 }
 

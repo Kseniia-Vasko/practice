@@ -28,6 +28,8 @@ namespace calk_oop.TwoArgumentFunctions
                     return new Maximum();
                 case "Avg":
                     return new Average();
+                case "GeomAvg":
+                    return new AverageG();
                 default:
                     throw new Exception("Unknown operation");
             }

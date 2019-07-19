@@ -50,22 +50,32 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="OneArgumentFunctions\AnotherpowerTests.cs" />
+    <Compile Include="OneArgumentFunctions\ArccosinusTests.cs" />
+    <Compile Include="OneArgumentFunctions\ArcsinusTests.cs" />
+    <Compile Include="OneArgumentFunctions\ArctangensTests.cs" />
     <Compile Include="OneArgumentFunctions\CosinusTests.cs" />
     <Compile Include="OneArgumentFunctions\CotangensTests.cs" />
     <Compile Include="OneArgumentFunctions\DividebackTests.cs" />
+    <Compile Include="OneArgumentFunctions\ExponentaTests.cs" />
     <Compile Include="OneArgumentFunctions\Logarithm10Test.cs" />
+    <Compile Include="OneArgumentFunctions\LogarithmNTests.cs" />
+    <Compile Include="OneArgumentFunctions\ModTests.cs" />
     <Compile Include="OneArgumentFunctions\NegationTests.cs" />
     <Compile Include="OneArgumentFunctions\Pow10Tests.cs" />
     <Compile Include="OneArgumentFunctions\Power2Tests.cs" />
     <Compile Include="OneArgumentFunctions\SinusTests.cs" />
+    <Compile Include="OneArgumentFunctions\TangensTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentFunctions\AdderTests.cs" />
     <Compile Include="TwoArgumentFunctions\AverageGTests.cs" />
     <Compile Include="TwoArgumentFunctions\AverageTests.cs" />
     <Compile Include="TwoArgumentFunctions\DividerTests.cs" />
+    <Compile Include="TwoArgumentFunctions\LogarithmTests.cs" />
     <Compile Include="TwoArgumentFunctions\MaximumTests.cs" />
     <Compile Include="TwoArgumentFunctions\MinimumTests.cs" />
     <Compile Include="TwoArgumentFunctions\MultipierTests.cs" />
+    <Compile Include="TwoArgumentFunctions\PowerBTests.cs" />
+    <Compile Include="TwoArgumentFunctions\PowerTests.cs" />
     <Compile Include="TwoArgumentFunctions\SubtracterTests.cs" />
   </ItemGroup>
   <ItemGroup>

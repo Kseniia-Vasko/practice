@@ -15,5 +15,11 @@ namespace Calk_OOP.Test.TwoArgumentFunctions
             var actualResult = calculator.Calculate(arOne, arTwo);
             Assert.AreEqual(expected, actualResult, 0.001);
         }
+        [Test]
+        public void NegativeCalculateTest()
+        {
+            var calculator = new Logarithm();
+            Assert.Throws<System.Exception>(() => calculator.Calculate(-4, 1));
+        }
     }
 }

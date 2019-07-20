@@ -18,4 +18,3 @@ namespace calk_oop.OneArgumentFunctions
         }
     }
 }
-   

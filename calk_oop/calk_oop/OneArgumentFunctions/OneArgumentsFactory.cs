@@ -2,18 +2,18 @@
 
 namespace calk_oop.OneArgumentFunctions
 {
-   public class OneArgumentsFactory
+    public class OneArgumentsFactory
     {
-        public static IOneArgumentsCalculator CreateCalculator(string Name)
+        public static IOneArgumentsCalculator CreateCalculator(string name)
         {
-            switch (Name)
+            switch (name)
             {
                 case "Sin":
                     return new Sinus();
                 case "Cos":
                     return new Cosinus();
                 case "Exp":
-                    return new Exponenta();
+                    return new Exponent();
                 case "Tan":
                     return new Tangens();
                 case "Arcsin":
@@ -37,7 +37,7 @@ namespace calk_oop.OneArgumentFunctions
                 case "Back":
                     return new Divideback();
                 case "Pwer":
-                    return new Anotherpower();
+                    return new Powertwo();
                 case "Ctg":
                     return new Cotangens();
                 default:

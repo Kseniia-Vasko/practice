@@ -11,7 +11,7 @@ namespace Calk_OOP.Test.OneArgumentFunctions
         [TestCase(4, 54.598)]
         public void CalculateTest(double arOne, double expected)
         {
-            var calculator = new Exponenta();
+            var calculator = new Exponent();
             var actualResult = calculator.Calculate(arOne);
             Assert.AreEqual(expected, actualResult, 0.001);
         }

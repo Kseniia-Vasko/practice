@@ -44,9 +44,8 @@ namespace calk_oop
             {
                 double firstArgument = Convert.ToDouble(textBox1.Text);
                 double secondArgument = Convert.ToDouble(textBox2.Text);
-                double result;
-                var Calculator = TwoArgumentsFactory.CreateCalculator(((Button) sender).Name);
-                result = Calculator.Calculate(firstArgument, secondArgument);
+                var calculator = TwoArgumentsFactory.CreateCalculator(((Button) sender).Name);
+                var result = calculator.Calculate(firstArgument, secondArgument);
 
                 label1.Text = result.ToString();
             }
@@ -55,6 +54,7 @@ namespace calk_oop
                 MessageBox.Show("Ошибка " + exc.Message);
             }
         }
+
         private void OneArgumentCalk(object sender, EventArgs e)
         {
             try
@@ -62,8 +62,8 @@ namespace calk_oop
                 double firstArgument = Convert.ToDouble(textBox1.Text);
 
                 double result;
-                var Calculator = OneArgumentsFactory.CreateCalculator(((Button) sender).Name);
-                result = Calculator.Calculate(firstArgument);
+                var calculator = OneArgumentsFactory.CreateCalculator(((Button) sender).Name);
+                result = calculator.Calculate(firstArgument);
 
                 label1.Text = result.ToString();
             }

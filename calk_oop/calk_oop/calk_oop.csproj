@@ -46,14 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArgumentFunctions\Anotherpower.cs" />
+    <Compile Include="OneArgumentFunctions\Powertwo.cs" />
     <Compile Include="OneArgumentFunctions\Arccosinus.cs" />
     <Compile Include="OneArgumentFunctions\Arcsinus.cs" />
     <Compile Include="OneArgumentFunctions\Arctangens.cs" />
     <Compile Include="OneArgumentFunctions\Cosinus.cs" />
     <Compile Include="OneArgumentFunctions\Cotangens.cs" />
     <Compile Include="OneArgumentFunctions\Divideback.cs" />
-    <Compile Include="OneArgumentFunctions\Exponenta.cs" />
+    <Compile Include="OneArgumentFunctions\Exponent.cs" />
     <Compile Include="OneArgumentFunctions\IOneArgumentsCalculator.cs" />
     <Compile Include="OneArgumentFunctions\Logarithm10.cs" />
     <Compile Include="OneArgumentFunctions\LogarithmN.cs" />
@@ -66,7 +66,7 @@
     <Compile Include="OneArgumentFunctions\Tangens.cs" />
     <Compile Include="TwoArgumentFunctions\Adder.cs" />
     <Compile Include="TwoArgumentFunctions\Average.cs" />
-    <Compile Include="TwoArgumentFunctions\AverageG.cs" />
+    <Compile Include="TwoArgumentFunctions\AverageGeometric.cs" />
     <Compile Include="TwoArgumentFunctions\Divider.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

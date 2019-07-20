@@ -2,7 +2,7 @@
 
 namespace calk_oop.OneArgumentFunctions
 {
-    
+
     public class Arccosinus : IOneArgumentsCalculator
     {
         /// <summary>
@@ -21,6 +21,6 @@ namespace calk_oop.OneArgumentFunctions
         }
     }
 }
-    
-        
-    
+
+
+

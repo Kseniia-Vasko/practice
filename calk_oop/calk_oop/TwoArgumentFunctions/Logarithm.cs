@@ -6,7 +6,8 @@ namespace calk_oop.TwoArgumentFunctions
         /// <summary>
         /// Calculate logarithm and you can choose argument(first value) and basis(second value)
         /// </summary>
-        /// <param name="number"></param>
+        /// <param name="firstValue"></param>
+        /// <param name="secondValue"></param>
         /// <returns>Calculated number</returns>
         public double Calculate(double firstValue, double secondValue)
         {
@@ -18,4 +19,3 @@ namespace calk_oop.TwoArgumentFunctions
         }
     }
 }
-   

@@ -4,7 +4,8 @@ namespace calk_oop.TwoArgumentFunctions
     /// <summary>
     /// Compare two numbers and decide which one is bigger
     /// </summary>
-    /// <param name="number"></param>
+    /// <param name="firstValue"></param>
+    /// <param name="secondValue"></param>
     /// <returns>Calculated number</returns>
     public class Maximum : ITwoArgumentsCalculator
     {

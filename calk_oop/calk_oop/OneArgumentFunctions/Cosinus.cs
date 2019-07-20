@@ -2,7 +2,7 @@
 
 namespace calk_oop.OneArgumentFunctions
 {
-   public class Cosinus : IOneArgumentsCalculator
+    public class Cosinus : IOneArgumentsCalculator
     {
         /// <summary>
         /// Calculate cosinus in radians from one argument

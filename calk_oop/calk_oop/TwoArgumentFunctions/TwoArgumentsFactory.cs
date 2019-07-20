@@ -4,16 +4,16 @@ namespace calk_oop.TwoArgumentFunctions
 {
     public class TwoArgumentsFactory
     {
-        public static ITwoArgumentsCalculator CreateCalculator(string Name)
+        public static ITwoArgumentsCalculator CreateCalculator(string name)
         {
-            switch (Name)
+            switch (name)
             {
                 case "Add":
                     return new Adder();
                 case "Subtraction":
-                   return new Subtracter();
+                    return new Subtracter();
                 case "Multiplication":
-                   return new Multipier();
+                    return new Multipier();
                 case "Divide":
                     return new Divider();
                 case "Pow":
@@ -29,7 +29,7 @@ namespace calk_oop.TwoArgumentFunctions
                 case "Avg":
                     return new Average();
                 case "GeomAvg":
-                    return new AverageG();
+                    return new AverageGeometric();
                 default:
                     throw new Exception("Unknown operation");
             }

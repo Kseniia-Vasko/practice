@@ -15,12 +15,6 @@ namespace Calk_OOP.Test.OneArgumentFunctions
             double result = calculator.Calculate(0);
             Assert.AreEqual(0, result);
         }
-        [Test]
-        public void NegativeCalculateTest()
-        {
-            var calculator = new Sinus();
-            Assert.Throws<System.Exception>(() => calculator.Calculate(-4));
-        }
-
+        
     }
 }

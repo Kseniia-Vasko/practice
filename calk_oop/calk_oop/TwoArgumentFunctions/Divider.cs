@@ -2,20 +2,21 @@
 
 namespace calk_oop.TwoArgumentFunctions
 {
-   public class Divider : ITwoArgumentsCalculator
-   {
+    public class Divider : ITwoArgumentsCalculator
+    {
         /// <summary>
         /// Divide two numbers
         /// </summary>
-        /// <param name="number"></param>
+        /// <param name="firstValue"></param>
+        /// <param name="secondValue"></param>
         /// <returns>Calculated number</returns>
         public double Calculate(double firstValue, double secondValue)
-    {
-        if (secondValue == 0)
         {
-            throw new Exception("Нельзя делить на 0");
+            if (secondValue == 0)
+            {
+                throw new Exception("Нельзя делить на 0");
+            }
+            return firstValue / secondValue;
         }
-        return firstValue / secondValue;
-    }
     }
 }

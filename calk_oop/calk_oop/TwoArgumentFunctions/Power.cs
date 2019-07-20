@@ -4,7 +4,8 @@ namespace calk_oop.TwoArgumentFunctions
     /// <summary>
     /// Calculate x^y where x - firstValue  y- secondValue
     /// </summary>
-    /// <param name="number"></param>
+    /// <param name="firstValue"></param>
+    /// <param name="secondValue"></param>
     /// <returns>Calculated number</returns>
     public class Power : ITwoArgumentsCalculator
     {

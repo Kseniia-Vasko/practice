@@ -9,7 +9,7 @@ namespace calk_oop.OneArgumentFunctions
       /// <returns>Calculated number</returns>
         public double Calculate(double number)
         {
-            return (1/Math.Tan(number));
+            return (1 / Math.Tan(number));
         }
     }
 }

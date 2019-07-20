@@ -11,7 +11,7 @@ namespace Calk_OOP.Test.TwoArgumentFunctions
         [TestCase(25, 4, 10)]
         public void CalculateTest(double arOne, double arTwo, double expected)
         {
-            var calculator = new AverageG();
+            var calculator = new AverageGeometric();
             var actualResult = calculator.Calculate(arOne, arTwo);
             Assert.AreEqual(expected, actualResult);
         }

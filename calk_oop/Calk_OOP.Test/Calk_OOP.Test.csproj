@@ -48,8 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="OneArgumentFunctions\AnotherpowerTests.cs" />
+    <Compile Include="OneArgumentFunctions\Powertwo.cs" />
     <Compile Include="OneArgumentFunctions\ArccosinusTests.cs" />
     <Compile Include="OneArgumentFunctions\ArcsinusTests.cs" />
     <Compile Include="OneArgumentFunctions\ArctangensTests.cs" />

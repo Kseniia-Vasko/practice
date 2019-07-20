@@ -3,7 +3,8 @@
     /// <summary>
     /// Subtract firstValue from secondValue
     /// </summary>
-    /// <param name="number"></param>
+    /// <param name="firstValue"></param>
+    /// <param name="secondValue"></param>
     /// <returns>Calculated number</returns>
     public class Subtracter : ITwoArgumentsCalculator
     {

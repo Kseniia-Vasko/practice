@@ -10,7 +10,7 @@ namespace Calk_OOP.Test.OneArgumentFunctions
     {
         [TestCase("Sin", typeof(Sinus))]
         [TestCase("Cos", typeof(Cosinus))]
-        [TestCase("Exp", typeof(Exponenta))]
+        [TestCase("Exp", typeof(Exponent))]
         [TestCase("Tan", typeof(Tangens))]
         [TestCase("Arcsin", typeof(Arcsinus))]
         [TestCase("Arccos", typeof(Arccosinus))]
@@ -22,7 +22,7 @@ namespace Calk_OOP.Test.OneArgumentFunctions
         [TestCase("Pw", typeof(Power2))]
         [TestCase("Pwr", typeof(Pow10))]
         [TestCase("Back", typeof(Divideback))]
-        [TestCase("Pwer", typeof(Anotherpower))]
+        [TestCase("Pwer", typeof(AnotherPower))]
         [TestCase("Ctg", typeof(Cotangens))]
         public void CalculateTest(string name, Type type)
         {

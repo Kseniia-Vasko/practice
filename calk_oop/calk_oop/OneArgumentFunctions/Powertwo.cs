@@ -1,7 +1,7 @@
 ﻿using System;
 namespace calk_oop.OneArgumentFunctions
 {
-    public class Anotherpower : IOneArgumentsCalculator
+    public class Powertwo : IOneArgumentsCalculator
     {
         /// <summary>
         /// Calculate x^2 for one argument

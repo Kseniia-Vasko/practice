@@ -15,12 +15,6 @@ namespace Calk_OOP.Test.OneArgumentFunctions
             double result = calculator.Calculate(0);
             Assert.AreEqual(1, result);
         }
-        [Test]
-        public void NegativeCalculateTest()
-        {
-            var calculator = new Cosinus();
-            Assert.Throws<System.Exception>(() => calculator.Calculate(-4));
-        }
 
     }
 }

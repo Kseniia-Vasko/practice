@@ -2,7 +2,7 @@
 
 namespace calk_oop.OneArgumentFunctions
 {
-    public class Exponenta : IOneArgumentsCalculator
+    public class Exponent : IOneArgumentsCalculator
     {/// <summary>
      /// Calculate function exponent for one argument
      /// </summary>

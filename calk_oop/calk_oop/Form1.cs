@@ -40,23 +40,37 @@ namespace calk_oop
 
         private void Calk(object sender, EventArgs e)
         {
-            double firstArgument = Convert.ToDouble(textBox1.Text);
-            double secondArgument = Convert.ToDouble(textBox2.Text);
-            double result;
-            var Calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            result = Calculator.Calculate(firstArgument, secondArgument);
+            try
+            {
+                double firstArgument = Convert.ToDouble(textBox1.Text);
+                double secondArgument = Convert.ToDouble(textBox2.Text);
+                double result;
+                var Calculator = TwoArgumentsFactory.CreateCalculator(((Button) sender).Name);
+                result = Calculator.Calculate(firstArgument, secondArgument);
 
-            label1.Text = result.ToString();
+                label1.Text = result.ToString();
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show("Ошибка " + exc.Message);
+            }
         }
         private void OneArgumentCalk(object sender, EventArgs e)
         {
-            double firstArgument = Convert.ToDouble(textBox1.Text);
+            try
+            {
+                double firstArgument = Convert.ToDouble(textBox1.Text);
 
-            double result;
-            var Calculator = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            result = Calculator.Calculate(firstArgument);
+                double result;
+                var Calculator = OneArgumentsFactory.CreateCalculator(((Button) sender).Name);
+                result = Calculator.Calculate(firstArgument);
 
-            label1.Text = result.ToString();
+                label1.Text = result.ToString();
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show("Ошибка " + exc.Message);
+            }
         }
     }
 }

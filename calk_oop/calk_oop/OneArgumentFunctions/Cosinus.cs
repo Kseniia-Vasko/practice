@@ -4,6 +4,11 @@ namespace calk_oop.OneArgumentFunctions
 {
    public class Cosinus : IOneArgumentsCalculator
     {
+        /// <summary>
+        /// Calculate cosinus in radians from one argument
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns>Calculated number</returns>
         public double Calculate(double number)
         {
 

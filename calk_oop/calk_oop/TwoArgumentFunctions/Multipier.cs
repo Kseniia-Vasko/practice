@@ -1,6 +1,11 @@
 ﻿namespace calk_oop.TwoArgumentFunctions
 {
-   public class Multipier : ITwoArgumentsCalculator
+    /// <summary>
+    /// Multiply two numbers
+    /// </summary>
+    /// <param name="number"></param>
+    /// <returns>Calculated number</returns>
+    public class Multipier : ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

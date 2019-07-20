@@ -3,9 +3,13 @@
 namespace calk_oop.TwoArgumentFunctions
 {
    public class Divider : ITwoArgumentsCalculator
-
-    {
-   public double Calculate(double firstValue, double secondValue)
+   {
+        /// <summary>
+        /// Divide two numbers
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns>Calculated number</returns>
+        public double Calculate(double firstValue, double secondValue)
     {
         if (secondValue == 0)
         {

@@ -1,9 +1,15 @@
 ﻿using System;
+
 namespace calk_oop.OneArgumentFunctions
 {
-
+    
     public class Arccosinus : IOneArgumentsCalculator
     {
+        /// <summary>
+        /// Calculate arccosinus in radians from one argument
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns>Calculated number</returns>
         public double Calculate(double number)
         {
 

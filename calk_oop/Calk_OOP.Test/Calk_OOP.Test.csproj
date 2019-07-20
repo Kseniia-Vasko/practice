@@ -61,6 +61,7 @@
     <Compile Include="OneArgumentFunctions\LogarithmNTests.cs" />
     <Compile Include="OneArgumentFunctions\ModTests.cs" />
     <Compile Include="OneArgumentFunctions\NegationTests.cs" />
+    <Compile Include="OneArgumentFunctions\OneArgumentsFactoryTests.cs" />
     <Compile Include="OneArgumentFunctions\Pow10Tests.cs" />
     <Compile Include="OneArgumentFunctions\Power2Tests.cs" />
     <Compile Include="OneArgumentFunctions\SinusTests.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="TwoArgumentFunctions\PowerBTests.cs" />
     <Compile Include="TwoArgumentFunctions\PowerTests.cs" />
     <Compile Include="TwoArgumentFunctions\SubtracterTests.cs" />
+    <Compile Include="TwoArgumentFunctions\TwoArgumentFactoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\calk_oop\calk_oop.csproj">

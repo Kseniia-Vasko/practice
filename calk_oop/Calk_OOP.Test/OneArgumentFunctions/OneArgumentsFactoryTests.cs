@@ -22,7 +22,7 @@ namespace Calk_OOP.Test.OneArgumentFunctions
         [TestCase("Pw", typeof(Power2))]
         [TestCase("Pwr", typeof(Pow10))]
         [TestCase("Back", typeof(Divideback))]
-        [TestCase("Pwer", typeof(AnotherPower))]
+        [TestCase("Pwer", typeof(Powertwo))]
         [TestCase("Ctg", typeof(Cotangens))]
         public void CalculateTest(string name, Type type)
         {
